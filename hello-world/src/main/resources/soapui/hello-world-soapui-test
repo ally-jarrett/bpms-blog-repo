@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response type="SUCCESS" msg="Info for container hello-world-1.0">
+   <kie-container container-id="hello-world-1.0" status="STARTED">
+      <config-items>
+         <itemName>KBase</itemName>
+         <itemValue/>
+         <itemType>BPM</itemType>
+      </config-items>
+      <config-items>
+         <itemName>KSession</itemName>
+         <itemValue/>
+         <itemType>BPM</itemType>
+      </config-items>
+      <config-items>
+         <itemName>MergeMode</itemName>
+         <itemValue>MERGE_COLLECTIONS</itemValue>
+         <itemType>BPM</itemType>
+      </config-items>
+      <config-items>
+         <itemName>RuntimeStrategy</itemName>
+         <itemValue>SINGLETON</itemValue>
+         <itemType>BPM</itemType>
+      </config-items>
+      <messages>
+         <content>Container hello-world-1.0 successfully created with module org.bpm.demo:hello-world:1.0.</content>
+         <severity>INFO</severity>
+         <timestamp>2017-03-05T18:16:35.324Z</timestamp>
+      </messages>
+      <release-id>
+         <artifact-id>hello-world</artifact-id>
+         <group-id>org.bpm.demo</group-id>
+         <version>1.0</version>
+      </release-id>
+      <resolved-release-id>
+         <artifact-id>hello-world</artifact-id>
+         <group-id>org.bpm.demo</group-id>
+         <version>1.0</version>
+      </resolved-release-id>
+      <scanner status="DISPOSED"/>
+   </kie-container>
+</response>
